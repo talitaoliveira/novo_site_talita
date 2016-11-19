@@ -1,152 +1,116 @@
 <!DOCTYPE html>
+<html>
 <head>
-	<title>TESTE</title>
-	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--[if lt IE 9]>
-	<script src="lib/html5shim.js"></script>
-	<![endif]-->
-
-	<link rel="shortcut icon" href="favicon.ico" />
-	<link rel="stylesheet" href="lib/plugins.css" type="text/css" />
-
-	<!-- Add jQuery library -->
-	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
-	<!-- Add Bootstrap -->
-	<link rel="stylesheet" type="text/css" href="lib/bootstrap.css">
-
-	<!-- Add All-Animation -->
-	<link rel="stylesheet" type="text/css" href="lib/all-animation.css">
-
-	<!-- Swipper JS -->
-	<script type="text/javascript" src="lib/swipper.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="lib/swipper.css">
-
-	<!-- CSS e JS da página -->
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript" src="lib/script.js"></script>
-
-	<script src="lib/bootstrap.js"></script>
-
+	<meta charset="utf-8">
+	<title>Talita Oliveira</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=320px, user-scalable=no">
+	<script
+	src="https://code.jquery.com/jquery-3.1.1.min.js"
+	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		$(document).ready(function($) { 
+			$(".scroll").click(function(event){
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
+			});
+			$("#icon-menu").click(function(){
+				$("#lista-menu").toggleClass('esconder');
+			});
+		});
+	</script>
 </head>
-<body data-spy="scroll" data-target="#navbar">
-	<div id="interface">
+<body>
+	<nav>
+		<a href="#" id="logo">Talita Oliveira</a>
+		<i class="fa fa-bars fa-2x" aria-hidden="true" id="icon-menu"></i>
+		<ul id="lista-menu" class="esconder">
+			<li><a href="#conhecimento" class="scroll">O QUE EU SEI</a></li>
+			<li><a href="#portfolio" class="scroll">PORTFOLIO</a></li>
+			<li><a href="#contato" class="scroll">CONTATO</a></li>
+		</ul>
+	</nav>
 	<header>
-		<nav class="navbar navbar-default nav navbar-fixed-top" id="navbar">
-		  <div class="container">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      <a class="navbar-brand" href="#">Talita Oliveira</a>
-		    </div>
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      <ul class="nav navbar-nav navbar-right menu">
-		        <li class="active">
-		        	<a href="#home" class="item-menu">Home</a>
-		        </li>
-		        <li>
-		        	<a href="#sobre" class="item-menu">Sobre</a>
-		        </li>
-		         <li>
-		        	<a href="#portfolio" class="item-menu">Portfolio</a>
-		        </li>
-		        <li>
-		        	<a href="#contato" class="item-menu">Contato</a>
-		        </li>
-		      </ul>
-		    </div><!-- /.navbar-collapse -->
-		  </div><!-- /.container-fluid -->
-		</nav>
+		<h1>Talita Oliveira</h1>
+		<p>Programadora PHP, formada em Sistemas de Informação, pós-graduando em Design de Web Apps com tecnologia Front-end, e adora uma sair pra tomar um chopp/cerveja gelada.  </p>
+		<div>
+			<div class="heart">
+				<div class="square"></div>
+				<div class="circle top"></div>
+				<div class="circle left"></div>
+			</div>
+		</div>
 	</header>
-	<div class="container-principal">
-		<section id="home" class="bg-verde">
-			<!-- <h1 class="h1-branco">Home</h1> -->
-				<h1 class="h1-home olao">&#60;/talita&#62;</h1>
-		</section>
-		<section id="sobre" class="bg-branco ">
-			<h1 class="h1-verde">Sobre</h1>
-			<section class="container">
-				<section class="col-md-4 item-skills"><h2>Skills</h2></section>
-				<section class="col-md-8 item-skills">
-					<div class="col-md-2 skill">
-						<figure>
-							<img src="icons/html5-128.png">
-						</figure>
-					</div>
-					<div class="col-md-2 skill">
-						<figure>
-							<img src="icons/css3-128.png">
-						</figure>
-					</div>
-					<div class="col-md-2 skill">
-						<figure>
-							<img src="icons/php-logo-128.png">
-						</figure>
-					</div>
-					<div class="col-md-2 skill">
-						<figure>
-							<img src="icons/cakephp.png">
-						</figure>
-					</div>
-					<div class="col-md-2 skill">
-						NULL
-					</div>
-					<div class="col-md-2 skill">
-						NULL
-					</div>
-				</section>
-			</section>
-		</section>
-		<section id="portfolio" class="bg-verde">
-			<h1 class="h1-branco">Portfolio</h1>
-			<section id="lista-portfolio" class="container">
-				<section class="item-portfolio col-sm-3">
-					<figure>
-						<img src="img/img1.jpg">
-					</figure>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint officia rem facilis quas molestias mollitia facere ipsam maxime suscipit vel laudantium itaque possimus numquam sunt hic, ipsa ducimus minus asperiores!</p>
-				</section>
-				<section class="item-portfolio col-sm-3">
-					<figure>
-						<img src="img/img2.jpg">
-					</figure>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint officia rem facilis quas molestias mollitia facere ipsam maxime suscipit vel laudantium itaque possimus numquam sunt hic, ipsa ducimus minus asperiores!</p>
-				</section>
-				<section class="item-portfolio col-sm-3">
-					<figure>
-						<img src="img/img3.jpg">
-					</figure>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint officia rem facilis quas molestias mollitia facere ipsam maxime suscipit vel laudantium itaque possimus numquam sunt hic, ipsa ducimus minus asperiores!</p>
-				</section>
-				<section class="item-portfolio col-sm-3">
-					<figure>
-						<img src="img/img4.jpg">
-					</figure>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint officia rem facilis quas molestias mollitia facere ipsam maxime suscipit vel laudantium itaque possimus numquam sunt hic, ipsa ducimus minus asperiores!</p>
-				</section>
-			</section>
-		</section>
-		<section id="contato" class="bg-branco">
-			<h1 class="h1-verde">Contato</h1>
-		</section>
-		<footer>
-			<div id="inicio-footer">
-				Facebook<br>
+
+	<section id="conhecimento">
+		<h2>O QUE EU SEI</h2>
+		<div class="card">
+			<div class="content">
+				<p> Trabalho com PHP a 3 anos, 2 anos foi mais usando o framework CakePHP. Minha paixão por programação surgiu na faculdade onde primeiramente aprendi Java, e não gostei muito. Quando conheci o PHP foi ~amor a primeira vista~ pois era bem simples de aprender e desenvolver aplicações para web.</p>
+				<img src="icons/icon-php.png" alt="cogumelos"/>
 			</div>
-			<div id="fim-footer">
-				<div id="div-copyright">Copyright © Talita Oliveira 2016</div>
+		</div>
+		<div class="card">
+			<div class="content">
+				<p> Depois que aprendi o PHP, fiquei fascinada por layouts para web. Também aprendi HTML na faculdade, mas fui me apronfundando sozinha. Minha diversão era copiar sites que eu via, só para aprendizado. Fiz uns freelas que nunca recebi nada por isso, e também nem sei se foram usados.</p>
+				<img src="icons/icon-html.png" alt="cogumelos"/>
 			</div>
-		</footer><div id="toTop">Voltar ao topo</div>
-	</div>
-	</body>
+		</div>
+		<div class="card">
+			<div class="content">
+				<p> Gosto muito do CSS e procuro alguns desafios para fazer só com CSS, sou apaixonada por Flexbox. Nas horas vagas quando estou no pc sem fazer nada, gosto de ficar vendo coisas no codepen e inventando coisa pra fazer com CSS (e JS as vezes).</p>
+				<img src="icons/icon-css.png" alt="cogumelos"/>
+			</div>
+		</div>
+		<div class="card">
+			<div class="content">
+				<p> Sou nível júnior mas minha meta é aprender bem Javascript e começar a ver NodeJS.</p>
+				<img src="icons/icon-js.png" alt="cogumelos"/>
+			</div>
+		</div>
+	</section>
+
+	<section id="portfolio" class="portfolio">
+		<h2>PORTFOLIO - Sites</h2>
+		<p>-- Sites que fiz para testar meus conhecimentos aprendidos --</p>
+		<a target="_blank" href="http://talitaoliveira.com.br/settrans"><img class="img-portfolio" src="img/site-settrans.png"/></a>
+		<a target="_blank" href="http://talitaoliveira.com.br/edvilma"><img class="img-portfolio" src="img/site-edvilma.png"/></a>
+		<a target="_blank" href="http://talitaoliveira.com.br/quintas-site"><img class="img-portfolio" src="img/site-quintas.png"/></a>
+		<a target="_blank" href="http://talitaoliveira.com.br/trailler"><img class="img-portfolio" src="img/site-trailler.png"/></a>
+		<a target="_blank" href="http://talitaoliveira.com.br/katinha"><img class="img-portfolio" src="img/site-katinha.png"/></a>
+	</section>
+	<section id="portfolio2" class="portfolio">
+		<h2>PORTFOLIO - Outros - Codepen</h2>
+		<a target="_blank" href="http://codepen.io/talitaoliveira/pen/VjdGKb"><img class="img-portfolio" src="img/coisas-pizza.png"/></a>
+		<a target="_blank" href="http://codepen.io/talitaoliveira/pen/YWdwJP"><img class="img-portfolio" src="img/coisas-jogodavelha.png"/></a>
+		<a target="_blank" href="http://codepen.io/talitaoliveira/pen/KrjrxR"><img class="img-portfolio" src="img/coisas-app.png"/></a>
+		<a target="_blank" href="http://codepen.io/talitaoliveira/pen/oLVzor"><img class="img-portfolio" src="img/coisas-form.png"/></a>
+		<a target="_blank" href="http://codepen.io/talitaoliveira/pen/NABjbK"><img class="img-portfolio" src="img/coisas-cartao.png"/></a>
+	</section>
+	<footer id="contato">
+		<p>Desenvolvido por Talita Oliveira.</p>
+		<div>
+			<a href="https://www.facebook.com/liitaoliveira" target="_blank" class="icon-facebook">
+				<i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i>
+			</a>
+			<a href="https://br.linkedin.com/in/litaaoliveira" target="_blank" class="icon-linkedin">
+				<i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
+			</a>
+			<a href="https://github.com/talitaoliveira/" target="_blank" class="icon-github">
+				<i class="fa fa-github fa-4x" aria-hidden="true"></i>
+			</a>
+			<a href="http://talitaoliveira.com.br/blog/" target="_blank" class="icon-wordpress">
+				<i class="fa fa-wordpress fa-4x" aria-hidden="true"></i>
+			</a>
+			<a href="http://codepen.io/talitaoliveira/" target="_blank" class="icon-codepen">
+				<i class="fa fa-codepen fa-4x" aria-hidden="true"></i>
+			</a>
+			<a href="mailto:litaa.oliveira@gmail.com" target="_blank" class="icon-envelope">
+				<i class="fa fa-envelope fa-4x" aria-hidden="true"></i>
+			</a>
+		</div>
+	</footer>
+
+</body>
 </html>
-
-

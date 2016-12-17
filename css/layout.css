@@ -388,3 +388,50 @@ footer div a{
 }
 
 }*/
+/* NOVO */
+div#novo{
+	width: 100%;
+	height: 80vh;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+h1{
+	font-family: monospace;
+	border-right: 3px solid #3D415B;
+	padding-right: 2px;
+	animation: type 3s steps(15), blink .5s infinite alternate;
+	width: 15ch;
+	overflow: hidden;
+	white-space: nowrap;
+	font-size:3rem;	
+}
+p#programadora{
+	margin-left: 20px;
+	text-align: left;
+	opacity: 0;
+	animation: fadein 1s;
+	animation-delay: 3s;
+	animation-fill-mode: both;
+	font-size:1rem;	
+}
+small#small{
+	animation: fadein 1s;
+	animation-delay: 4s;
+	animation-fill-mode: both;
+}
+
+@keyframes type {
+	from {width: 0;}
+}
+@keyframes blink{
+	50%{border-color: transparent;}
+}
+@keyframes fadein{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+};

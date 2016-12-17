@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>Talita Oliveira</title>
 	<link rel="stylesheet" href="css/style.css">
+	<meta name="theme-color" content="#3D415B">
 	<meta name="viewport" content="width=320px, user-scalable=no">
 	<script
 	src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -32,15 +33,21 @@
 		</ul>
 	</nav>
 	<header>
-		<h1>Talita Oliveira</h1>
-		<p>Programadora PHP, formada em Sistemas de Informação, pós-graduando em Design de Web Apps com tecnologia Front-end, e adora uma sair pra tomar um chopp/cerveja gelada.  </p>
-		<div>
+		<!-- <h1>Talita Oliveira</h1>
+		<p>Programadora PHP, formada em Sistemas de Informação, pós-graduando em Design de Web Apps com tecnologia Front-end, e adora uma sair pra tomar um chopp/cerveja gelada.  </p> -->
+		<div id="novo">
+			<h1>Talita Oliveira</h1>
+			<p id="programadora">programadora PHP <br> 
+				<small id="small">e dev front-end nas horas vagas</small>
+			</p>
+		</div>	
+		<!-- <div>
 			<div class="heart">
 				<div class="square"></div>
 				<div class="circle top"></div>
 				<div class="circle left"></div>
 			</div>
-		</div>
+		</div> -->
 	</header>
 
 	<section id="conhecimento">

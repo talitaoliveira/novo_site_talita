@@ -1,8 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
+	<!-- Codificação caracteres da página -->
 	<meta charset="utf-8">
+
+	<!-- SEO GERAL -->
 	<title>Talita Oliveira</title>
+	<meta name="description" content="Programadora PHP e dev front-end nas horas vagas">
+	<link rel="canonical" href="http://talitaoliveira.com.br/">
+	<meta name="author" content="Talita Oliveira">
+	<meta name="robots" content="index">
+	<meta name="keywords" content="programadora, php, front-end, dev, portfolio, ">
+
+	<!-- Google+ -->
+	<meta itemprop="name" content="Talita Oliveira">
+	<meta itemprop="description" content="Programadora PHP e dev front-end nas horas vagas">
+	<meta name="image" content="http://talitaoliveira.com.br/img/cartao2.png">
+	<link rel="stylesheet" href="https://plus.google.com/109652010800285527745" rel="publisher">
+
+	<!-- Open Graph Facebook -->
+	<meta property="og:title" content="Talita Oliveira">
+	<meta property="og:description" content="Programadora PHP e dev front-end nas horas vagas">
+	<meta property="og:type" content="">
+	<meta property="og:url" content="http://talitaoliveira.com.br/">
+	<meta property="og:site_name" content="Talita Oliveira">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="http://talitaoliveira.com.br/img/cartao2.png">
+
+	<!-- Twitter -->
+	<meta name="twitter:title" content="Talita Oliveira">
+	<meta name="twitter:description" content="Programadora PHP e dev front-end nas horas vagas">
+	<meta name="twitter:url" content="http://talitaoliveira.com.br/">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="http://talitaoliveira.com.br/img/cartao2.png">
+	<meta name="twitter:creator" content="@liitacherry">
+
+	<!--  -->
 	<link rel="stylesheet" href="css/style.css">
 	<meta name="theme-color" content="#3D415B">
 	<meta name="viewport" content="width=320px, user-scalable=no">

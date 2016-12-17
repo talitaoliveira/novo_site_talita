@@ -88,25 +88,25 @@
 		<div class="card">
 			<div class="content">
 				<p> Trabalho com PHP a 3 anos, 2 anos foi mais usando o framework CakePHP. Minha paixão por programação surgiu na faculdade onde primeiramente aprendi Java, e não gostei muito. Quando conheci o PHP foi ~amor a primeira vista~ pois era bem simples de aprender e desenvolver aplicações para web.</p>
-				<img src="icons/icon-php.png" alt="cogumelos"/>
+				<img src="icons/icon-php.png" alt="Imagem PHP"/>
 			</div>
 		</div>
 		<div class="card">
 			<div class="content">
 				<p> Depois que aprendi o PHP, fiquei fascinada por layouts para web. Também aprendi HTML na faculdade, mas fui me apronfundando sozinha. Minha diversão era copiar sites que eu via, só para aprendizado. Fiz uns freelas que nunca recebi nada por isso, e também nem sei se foram usados.</p>
-				<img src="icons/icon-html.png" alt="cogumelos"/>
+				<img src="icons/icon-html.png" alt="Imagem HTML"/>
 			</div>
 		</div>
 		<div class="card">
 			<div class="content">
 				<p> Gosto muito do CSS e procuro alguns desafios para fazer só com CSS, sou apaixonada por Flexbox. Nas horas vagas quando estou no pc sem fazer nada, gosto de ficar vendo coisas no codepen e inventando coisa pra fazer com CSS (e JS as vezes).</p>
-				<img src="icons/icon-css.png" alt="cogumelos"/>
+				<img src="icons/icon-css.png" alt="Imagem CSS"/>
 			</div>
 		</div>
 		<div class="card">
 			<div class="content">
 				<p> Sou nível júnior mas minha meta é aprender bem Javascript e começar a ver NodeJS.</p>
-				<img src="icons/icon-js.png" alt="cogumelos"/>
+				<img src="icons/icon-js.png" alt="Imagem Javascript"/>
 			</div>
 		</div>
 	</section>
@@ -114,19 +114,19 @@
 	<section id="portfolio" class="portfolio">
 		<h2>PORTFOLIO - Sites</h2>
 		<p>-- Sites que fiz para testar meus conhecimentos aprendidos --</p>
-		<a target="_blank" href="http://talitaoliveira.com.br/settrans"><img class="img-portfolio" src="img/site-settrans.png"/></a>
-		<a target="_blank" href="http://talitaoliveira.com.br/edvilma"><img class="img-portfolio" src="img/site-edvilma.png"/></a>
-		<a target="_blank" href="http://talitaoliveira.com.br/quintas-site"><img class="img-portfolio" src="img/site-quintas.png"/></a>
-		<a target="_blank" href="http://talitaoliveira.com.br/trailler"><img class="img-portfolio" src="img/site-trailler.png"/></a>
-		<a target="_blank" href="http://talitaoliveira.com.br/katinha"><img class="img-portfolio" src="img/site-katinha.png"/></a>
+		<a target="_blank" href="http://talitaoliveira.com.br/settrans"><img alt="Layout feito por mim do site Settrans" class="img-portfolio" src="img/site-settrans.png"/></a>
+		<a target="_blank" href="http://talitaoliveira.com.br/edvilma"><img alt="Layout feito por mim do site Edvilma Cabelereiros" class="img-portfolio" src="img/site-edvilma.png"/></a>
+		<a target="_blank" href="http://talitaoliveira.com.br/quintas-site"><img alt="Layout feito por mim do site Quintas advogados" class="img-portfolio" src="img/site-quintas.png"/></a>
+		<a target="_blank" href="http://talitaoliveira.com.br/trailler"><img alt="Layout feito por mim do site Trailler publicitário" class="img-portfolio" src="img/site-trailler.png"/></a>
+		<a target="_blank" href="http://talitaoliveira.com.br/katinha"><img alt="Layout feito por mim do site da minha mãe" class="img-portfolio" src="img/site-katinha.png"/></a>
 	</section>
 	<section id="portfolio2" class="portfolio">
 		<h2>PORTFOLIO - Outros - Codepen</h2>
-		<a target="_blank" href="http://codepen.io/talitaoliveira/pen/VjdGKb"><img class="img-portfolio" src="img/coisas-pizza.png"/></a>
-		<a target="_blank" href="http://codepen.io/talitaoliveira/pen/YWdwJP"><img class="img-portfolio" src="img/coisas-jogodavelha.png"/></a>
-		<a target="_blank" href="http://codepen.io/talitaoliveira/pen/KrjrxR"><img class="img-portfolio" src="img/coisas-app.png"/></a>
-		<a target="_blank" href="http://codepen.io/talitaoliveira/pen/oLVzor"><img class="img-portfolio" src="img/coisas-form.png"/></a>
-		<a target="_blank" href="http://codepen.io/talitaoliveira/pen/NABjbK"><img class="img-portfolio" src="img/coisas-cartao.png"/></a>
+		<a target="_blank" href="http://codepen.io/talitaoliveira/pen/VjdGKb"><img alt="Código no Codepen: pizza que separa fatias com CSS" class="img-portfolio" src="img/coisas-pizza.png"/></a>
+		<a target="_blank" href="http://codepen.io/talitaoliveira/pen/YWdwJP"><img alt="Código no Codepen: Jogo da velha em javascript" class="img-portfolio" src="img/coisas-jogodavelha.png"/></a>
+		<a target="_blank" href="http://codepen.io/talitaoliveira/pen/KrjrxR"><img alt="Código no Codepen: aplicação com accordeon" class="img-portfolio" src="img/coisas-app.png"/></a>
+		<a target="_blank" href="http://codepen.io/talitaoliveira/pen/oLVzor"><img alt="Código no Codepen: formulário em html e css" class="img-portfolio" src="img/coisas-form.png"/></a>
+		<a target="_blank" href="http://codepen.io/talitaoliveira/pen/NABjbK"><img alt="Código no Codepen: cartão saltitante" class="img-portfolio" src="img/coisas-cartao.png"/></a>
 	</section>
 	<footer id="contato">
 		<p>Desenvolvido por Talita Oliveira.</p>
